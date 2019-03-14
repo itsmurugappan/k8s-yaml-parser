@@ -8,3 +8,8 @@ deployment yaml is 19000 lines. It is difficult to see the resources that are cr
 3. Organize the yaml files based on the resource kind
 
 ![](./Images/screenshot.jpg)
+
+##usage
+```
+file_path=/tmp/istio.yaml dir=/tmp/splitfiles k8s-yaml-parser
+```
