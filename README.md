@@ -1,4 +1,4 @@
-#k8s-yaml-parser
+# k8s-yaml-parser
 
 Utility built in Go to parse the k8s resource yaml. K8s resource yaml can be really big and be difficult to read. For example the istio
 deployment yaml is 19000 lines. It is difficult to see the resources that are created. This utility does the following
@@ -7,4 +7,4 @@ deployment yaml is 19000 lines. It is difficult to see the resources that are cr
 2. Creates separate yaml file for each resources
 3. Organize the yaml files based on the resource kind
 
-[](./Images/screenshot.jpg)
+![](./Images/screenshot.jpg)
