@@ -9,7 +9,7 @@ deployment yaml is 19000 lines. It is difficult to see the resources that are cr
 
 ![](./Images/screenshot.jpg)
 
-##usage
+## usage
 ```
 file_path=/tmp/istio.yaml dir=/tmp/splitfiles k8s-yaml-parser
 ```
