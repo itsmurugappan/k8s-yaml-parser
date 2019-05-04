@@ -50,7 +50,7 @@ func main() {
           namespace := fmt.Sprintf("%v",md["namespace"])
 
           if _, err := os.Stat(destDir + "/" + namespace + "/" + kind); os.IsNotExist(err) {
-            os.MkdirAll(destDir + "/" + namespace + "/" + kind, 0777)
+            os.MkdirAll(destDir + "/" + kind, 0777)
           }
 
           err2 := ioutil.WriteFile(destDir + "/" + namespace + "/" + kind + "/" + newName + ".yaml", []byte(str.String()), 0777)
